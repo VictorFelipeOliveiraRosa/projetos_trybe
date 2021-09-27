@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(253 , 251 , 251);
+  width: 1366px;
+  height: 768px;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  text-align: center;
+  color: white;
+  width: 100%;
+  background: skyblue;
+  z-index: 1;
+}
+
+
+#titulo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Impact , Haettenschweiler , sans-serif;
+}
+
+section {
+  width: 100%;
+  height: 30%;
+  position: relative;
+  top: 45px;
+  color: white;
+}
+
+#minha_foto {
+  position: relative;
+  height: 80%;
+  width: 13%;
+  margin-left: 1.5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+div {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  top: 50%;
+  left: 66%;
+  transform: translate(-60% , -50%);
+  display: inline-block;
+  background: cadetblue;
+}
+
+ul , ol {
+  display: inline-block;
+  width: 10;
+  height: auto;
+  font-size: 13px;
+  font-family: Courier , monospace;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 200;
+  font-family: Courier , monospace;
+  line-height: 2;
+  color: rgb(22 , 21 , 21);
+}
+
+ol {
+  position: relative;
+  left: 12.5%;
+  top: 50%;
+  transform: translate(-25% , -50%);
+}
+
+ul {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% , -50%);
+}
+
+.lado-direito {
+  position: relative;
+  top: 70px;
+  width: 45%;
+  display: inline-block;
+  left: 25%;
+  transform: translateX(-50%);
+  background-color: rgba(64 , 110 , 110 , 0.384);
+  border-radius: 3px;
+}
+
+.lado-esquerdo {
+  position: relative;
+  top: 70px;
+  width: 45%;
+  display: inline-block;
+  right: 25%;
+  transform: translateX(70%);
+  background-color: rgb(73 , 129 , 129 , 0.5);
+  border-radius: 3px;
+}
+
+#rodape {
+  background-color: rgb(15 , 15 , 15);
+  color: aqua;
+  position: absolute;
+  bottom: 1px;
+  width: 100%;
+  height: 100px;
+}
+
+nav {
+  position: absolute;
+  display: inline-block;
+  left: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+nav a {
+  display: block;
+  margin: 5px;
+  color: chartreuse;
+}
+
+table {
+  position: absolute;
+  display: inline-block;
+  right: 25%;
+}

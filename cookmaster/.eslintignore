@@ -1,0 +1,5 @@
+node_modules
+test
+src/integration-tests/
+seed.js
+myTest

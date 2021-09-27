@@ -1,0 +1,53 @@
+.movie-card-header {
+  top: 0;
+}
+
+.movie-card-header h1 {
+  color: rgba(255, 255, 255, 0.959);
+  font-size: calc(3vh + 2vw);
+}
+
+.movie-list {
+  background-color: rgb(15, 15, 15);
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  margin: 10px auto;
+  padding: 5px;
+  position: relative;
+  top: 100px;
+  width: 70%;
+}
+
+.card-container {
+  align-items: flex-start;
+  color: white;
+  display: flex;
+  height: autox;
+  justify-content: center;
+  margin: 1%;
+  width: 48%;
+}
+
+.movie-card-back {
+  align-content: flex-start;
+  background-color: rgb(10, 10, 10);
+  display: flex;
+  flex-flow: column;
+  height: auto;
+  width: 98%;
+}
+
+.card-image img {
+  width: 100%;
+}
+
+.card-title, .card-subtitle, .card-story {
+  height: auto;
+  padding: 5px;
+}
+
+.card-rating {
+  align-self: flex-end;
+  margin: 10px;
+}
